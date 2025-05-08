@@ -110,8 +110,7 @@ ul {
   max-height: 515px;
   width: 100%;
 }
-.banner-left,
-.banner-right {
+.banner-left {
   flex-basis: 48%;
   gap: 20px;
 }
@@ -416,7 +415,7 @@ ul {
   object-fit: contain;
 }
 .first-box > .in {
-  width: 34px;
+  max-width: 34px;
   height: 34px;
   object-fit: contain;
 }
@@ -425,14 +424,20 @@ ul {
   padding-top: 23px;
   color: black;
   font-size: 18px;
+  text-wrap: nowrap;
 }
 .textprofile {
   padding-left: 35px;
   font-size: 18px;
 }
 .first-box > p > b {
+  text-wrap: nowrap;
   color: black;
   font-size: 20px;
+}
+.first-box>.p>.ceo{
+  text-wrap: nowrap;
+  font-size: 12px;
 }
 .button-team > a {
   border-radius: 14px;
@@ -597,12 +602,12 @@ ul {
 }
 .policy {
   padding-left: 60px;
-  margin-top: 10px;
+  /* margin-top: 10px; */
   padding-bottom: 50px;
   color: white;
 }
 .privacy {
-  margin-top: 10px;
+  /* margin-top: 10px; */
   color: white;
   margin-left: 30px;
   text-decoration: underline;
@@ -906,7 +911,15 @@ ul {
   }
 }
 @media screen and (max-width: 472px) {
- 
+ .in{
+  display: none;
+ }
+ .have{
+  display: none;
+ }
+ .ttsstt>.abcd>p{
+  display: none;
+ }
   .wc2 > img {
     object-fit: contain;
     min-height: 20px;
@@ -1016,7 +1029,7 @@ ul {
   }
   .policy {
     padding-left: 50px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     padding-bottom: 50px;
     color: white;
   }
