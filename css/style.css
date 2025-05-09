@@ -116,6 +116,9 @@ ul {
 }
 
 /* SECTION-1-WEBSITE-ICON */
+.sec{
+  
+}
 .nav-icon > ul {
   display: flex;
   justify-content: space-between;
@@ -544,7 +547,8 @@ ul {
   border-radius: 45px;
 }
 .footer-nav-section {
-  padding: 55px 60px;
+  padding: 0px 60px;
+  padding-top: 50px;
 
   display: flex;
   flex-wrap: wrap;
