@@ -522,6 +522,7 @@ ul {
   border-radius: 14px;
   padding-left: 10px;
 }
+
 .message {
   max-width: 556px;
   height: 190px;
@@ -534,6 +535,11 @@ ul {
   background-color: #191a23;
   color: white;
   border-radius: 14px;
+}
+.lear{
+  display: flex;
+  color: white;
+  margin-top: 5px;
 }
 .sidebarimg {
   max-height: 600px;
@@ -618,7 +624,7 @@ ul {
 }
 /* MEDIA-QUERY */
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 992px) {
   /* HEADER-SECTION */
 
   .nav-logo > a > img {
@@ -713,6 +719,12 @@ ul {
     object-fit: contain;
   }
   /* SECTION-2-HEADING */
+  .sec{
+    display: none;
+  }
+  .more{
+    display: none;
+  }
   .section2 {
     margin-top: 50px;
   }
